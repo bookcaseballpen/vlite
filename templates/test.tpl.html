@@ -1,14 +1,19 @@
 <template>
   <h2 class="title">Hello</h2>
+  <p class="p1" onclick="printb()">use this to set interesting content</p>
 </template>
 <script>
- $('.title').click(function(){
-   alert('Hello world')
- })
+  $el.find('.title').click(function() {
+    alert('title')
+  })
 </script>
 <style>
 .title {
   font-size: 30px;
   border: 1px solid black;
+}
+.p1 {
+  font-size: 19px;
+  color: red;
 }
 </style>
