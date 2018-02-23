@@ -1,0 +1,30 @@
+{
+  "name": "vlite",
+  "version": "0.1.0",
+  "description": "light weight template rendering library",
+  "main": "/src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bookcaseballpen/vlite.git"
+  },
+  "keywords": [
+    "vlite",
+    "template",
+    "rendering"
+  ],
+  "author": "Sam Wang Kun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bookcaseballpen/vlite/issues"
+  },
+  "homepage": "https://github.com/bookcaseballpen/vlite#readme",
+  "dependencies": {
+    "webpack": "^3.11.0"
+  }
+}
