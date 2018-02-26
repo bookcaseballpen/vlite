@@ -26,5 +26,13 @@
   "homepage": "https://github.com/bookcaseballpen/vlite#readme",
   "dependencies": {
     "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack-cleanup-plugin": "^0.5.1"
   }
 }
